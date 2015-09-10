@@ -30,10 +30,6 @@ int main()
         for(ll i=n,j=1;j<=r;j++,i--){
             result=result*i/j;
         }
-        //for(int i=0;i<r;i++) result=result*(n-i)/(1+i);
-        //for(ll i=2;i<=r;i++){
-        //result/=i;
-        //}
         cout<<result<<endl;
     }
 }
