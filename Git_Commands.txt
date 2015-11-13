@@ -1,0 +1,38 @@
+Git Commands:
+
+git init //initiate git in a directory
+
+git config --global user.name "name"
+git config --global user.email "email"
+
+git clone git@github.com:user/test.git
+
+git add -A //add all
+git add filename //add that file
+
+git rm filename //remove
+
+git commit -m "comment"
+
+git status //shows current status
+
+git branch -a //list all branch
+git branch branch_name //create that local branch
+git branch -d branch_name //delete a local branch 
+
+git checkout newbranch //switches to that branch
+
+git merge newbranchversion //Merges one or more branches into your current branch
+
+git reset --hard HEAD //reset to last commit changes
+
+git pull origin branch_name //pulls that branch
+
+git push origin branch_name //push to that branch & create that branch  if it does not exist
+git push origin :branch_name //delete from github
+git push remote_name branch_name //update the branch
+
+git remote add remote_name http://github.com/shikkanobish/personal-data //add a remote to the current branch
+git remote origin //Shows all the remote versions of your repository
+
+git log //shows commit logs
